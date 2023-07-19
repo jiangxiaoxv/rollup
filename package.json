@@ -1,0 +1,31 @@
+{
+  "name": "rollup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:jiangxiaoxv/rollup.git",
+  "author": "jiangxiaoxv <1043479536@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup --config"
+  },
+  "dependencies": {
+    "@babel/core": "^7.22.9",
+    "@babel/preset-env": "^7.22.9",
+    "@rollup/plugin-commonjs": "^25.0.3",
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "@rollup/plugin-typescript": "^11.1.2",
+    "magic-string": "^0.30.1",
+    "postcss": "^8.4.26",
+    "rollup": "^3.26.2",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-serve": "^2.0.2",
+    "rollup-plugin-terser": "^7.0.2",
+    "tslib": "^2.6.0",
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "@rollup/plugin-json": "^6.0.0"
+  }
+}
